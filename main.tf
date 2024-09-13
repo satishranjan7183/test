@@ -6,3 +6,6 @@ resource "azurerm_resource_group" "gitrepo" {
 variable "gitrepovar" {
   type = map(any)
 }
+
+
+pardeep
