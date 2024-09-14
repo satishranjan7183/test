@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "gitrepo" {
   name = "satish"
-  location = "westus"
+  setlocation = "westus"
 
 
 variable "gitrepovar" {
