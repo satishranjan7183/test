@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "gitrepo" {
-  name = "git"
+  name = "satish"
   location = "westus"
 
 
@@ -8,4 +8,4 @@ variable "gitrepovar" {
 }
 
 
-pardeep
+pardeep  rana
