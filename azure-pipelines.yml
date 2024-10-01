@@ -1,14 +1,14 @@
 trigger:
   branches:
     include:
-      - rana  # Trigger on changes to the main branch
+      - main  # Trigger on changes to the main branch
 
 resources:
   repositories:
     - repository: common  # Local name to reference the repository
       type: git           # Type of repository
-      name: satishranjan7183/test  # Project and repository name
-      ref: refs/heads/rana  # Reference to the main branch
+      name: motorola/infrapipeline  # Project and repository name
+      ref: refs/heads/main  # Reference to the main branch
 
 steps:
 - script: echo Hello, world!
