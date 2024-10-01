@@ -3,6 +3,8 @@ trigger:
     include:
       - main  # Trigger on changes to the main branch
 
+pool: satishpool
+
 resources:
   repositories:
     - repository: common  # Local name to reference the repository
